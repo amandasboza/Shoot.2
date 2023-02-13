@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(118, 113, 113, 0.499);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    padding: 70px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.461);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-style: italic;
+}
+
+div  {
+    text-align:left;
+}
+
+p{
+    margin: 0;
+    padding: 15px;
+}
+
+#check {
+    margin: 15px;
+}
