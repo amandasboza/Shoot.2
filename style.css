@@ -13,7 +13,7 @@ section {
     background-color: white;
     border-radius: 10px;
     width: 650px;
-    height: 450px;
+    height: 430px;
     margin: auto;
     padding: 70px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.461);
@@ -37,4 +37,9 @@ p{
 
 #check {
     margin: 15px;
+}
+
+#res{
+    margin: 0;
+    padding: 15px;
 }

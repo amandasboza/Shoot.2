@@ -15,17 +15,17 @@
     <section>
         <div>
                 <p>What is the year of your birth?
-                <input type="number" min="0" placeholder="Ex: 1996">
+                <input type="text" maxlength="4" placeholder="Ex: 1996" id="textyear">
                 </p>
                 <p>What is your gender?
                 <input type="radio" name="radsex" id="female" checked/><label for="female" >Female</label>
                 <input type="radio" name="radsex" id="male"/><label for="male">Male</label>
                 </p>
-                <input type="button" id="check" value="Check">
+                <input type="button" id="check" value="Check" onclick="check()">
         </div>
         
         <div id="res">
-            pipipi po po po
+            Fill the blank to check the result!
         </div>
     </section>
     <footer>
