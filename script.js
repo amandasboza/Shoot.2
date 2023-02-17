@@ -18,34 +18,42 @@
             genero = 'woman'
             if (age >= 0 && age < 10) {
                 // Criança
+            img.setAttribute('src', 'photo-baby-f.png')
             }
             else if (age < 21) {
                 // Jovem
+            img.setAttribute('src', 'photo-young-f.png')
             }
             else if (age < 50) {
                 // Adulto
+            img.setAttribute('src', 'photo-adult-f.png')
             }
-            else if (age => 51 && age < 110) {
+            else {
                 // Idoso
+            img.setAttribute('src', 'photo-older-f.png')
             }
         }
         else if (fsex[1].checked) {
             genero = 'man'
             if (age >= 0 && age < 10) {
                 // Criança
+            img.setAttribute('src', 'photo-baby-m.png')
             }
             else if (age < 21) {
                 // Jovem
+            img.setAttribute('src', 'photo-young-m.png')
             }
             else if (age < 50) {
                 // Adulto
+            img.setAttribute('src', 'photo-adult-m.png')
             }
-            else if (age => 51 && age < 110) {
+            else {
                 // Idoso
+            img.setAttribute('src', 'photo-older-f.png')
             }
         }
         res.style.textAlign = 'center'
         res.innerHTML = `Your are a ${genero} and your age is ${age}`
-
+        res.appendChild(img)
         }
     }
