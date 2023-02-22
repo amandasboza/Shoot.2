@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(118, 113, 113, 0.499);
+    background-color: rgb(52, 24, 24);
     font: normal 15pt arial;
 }
 
@@ -39,7 +39,11 @@ p{
     margin: 15px;
 }
 
-#res{
-    margin: 0;
-    padding: 15px;
+#res {
+    padding: 0 15px;
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 25px;
+    margin: 0 145px;
 }
